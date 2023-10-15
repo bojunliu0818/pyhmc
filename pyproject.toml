@@ -5,4 +5,4 @@ requires = ["setuptools",
         "numpy",
         #"versioneer"
         ]
-#build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta"
