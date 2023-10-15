@@ -3,6 +3,6 @@ requires = ["setuptools",
         "wheel", 
         "Cython",
         "numpy",
-        #"versioneer"
+        "versioneer[toml]"
         ]
 build-backend = "setuptools.build_meta"
