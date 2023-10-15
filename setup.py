@@ -27,12 +27,12 @@ This software is distributed under the BSD License (see LICENSE file).
 from setuptools import find_packages, setup, Extension
 import numpy as np
 from Cython.Distutils import build_ext
-#import versioneer
-#versioneer.VCS = 'git'
-#versioneer.versionfile_source = 'pyhmc/_version.py'
-#versioneer.versionfile_build = 'pyhmc/_version.py'
-#versioneer.tag_prefix = '' # tags are like 1.2.0
-#versioneer.parentdir_prefix = 'pyhmc-' # dirname like 'myproject-1.2.0'
+import versioneer
+versioneer.VCS = 'git'
+versioneer.versionfile_source = 'pyhmc/_version.py'
+versioneer.versionfile_build = 'pyhmc/_version.py'
+versioneer.tag_prefix = '' # tags are like 1.2.0
+versioneer.parentdir_prefix = 'pyhmc-' # dirname like 'myproject-1.2.0'
 
 DOCLINES = __doc__.split("\n")
 CLASSIFIERS = """\
@@ -57,7 +57,7 @@ setup(
     name='pyhmc',
     author="Robert T. McGibbon",
     author_email='rmcgibbo@gmail.com',
-    #version=versioneer.get_version(),
+    version=versioneer.get_version(),
     cmdclass=cmdclass,
     url="https://github.com/rmcgibbo/pyhmc",
     description=DOCLINES[0],
