@@ -54,13 +54,13 @@ extensions = [
 ]
 
 setup(
-    name='pyhmc',
+    name='pyhmc-duplicate',
     author="Robert T. McGibbon",
     author_email='rmcgibbo@gmail.com',
     version=versioneer.get_version(),
     cmdclass=cmdclass,
     url="https://github.com/rmcgibbo/pyhmc",
-    description=DOCLINES[0],
+    description="This is a temperary duplicate version of pyhmc for msmbuilder2022 installation.",
     long_description="\n".join(DOCLINES[2:]),
     license='BSD',
     install_requires=['numpy'],
