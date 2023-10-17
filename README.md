@@ -1,5 +1,8 @@
 pyhmc: Hamiltonian Monte Carlo in Python
 =================================================
+This is a temperary duplicate version of pyhmc for msmbuilder2022 installation.
+
+
 [![Build Status](https://travis-ci.org/rmcgibbo/pyhmc.svg)](https://travis-ci.org/rmcgibbo/pyhmc)
 [![License](https://img.shields.io/badge/license-BSD-red.svg?style=flat)](https://pypi.python.org/pypi/pyhmc)
 [![Docs](https://img.shields.io/badge/docs-latest-blue.svg?style=flat)](https://pythonhosted.org/pyhmc/)
