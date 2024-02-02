@@ -57,7 +57,7 @@ setup(
     name='pyhmc-duplicate',
     author="Robert T. McGibbon",
     author_email='rmcgibbo@gmail.com',
-    version=versioneer.get_version(),
+    version="0.1.2",
     cmdclass=cmdclass,
     url="https://github.com/rmcgibbo/pyhmc",
     description="This is a temperary duplicate version of pyhmc for msmbuilder2022 installation.",
